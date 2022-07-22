@@ -5,7 +5,7 @@ import EntryCard from "@/components/EntryCard.vue";
 // Importando reactive
 import { reactive } from "vue";
 // Imporntado interface User
-import type User from './types/User';
+import type User from "./types/User";
 
 const user: User = reactive({
   id: 1,
